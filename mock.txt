@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        .C{
+          /* border: 1px solid red; */
+          display: flex;
+          width: 900px;
+          height: 600px;
+          margin-top: 50px;
+          margin-left: 200px;
+          /* box-shadow: 1px 3px 5px black; */
+        }
+        .A{
+            /* border: 2px solid green; */
+            width: 450px;
+            padding: 50px;
+            background-color: white;
+
+        }
+        .B{
+            /* border: 3px solid palevioletred; */
+            width: 450px;
+            padding: 50px;
+            background:linear-gradient(To right,yellow,rgb(172, 84, 98));
+        }
+        form{
+            margin-top: 80px;
+        }
+        body{
+            background:linear-gradient(To right,rgb(167, 99, 111),yellow);
+        }
+        button{
+            border-radius: 20px;
+            background: linear-gradient(To left,green,red);
+        }
+        /* input
+        {
+            border: none;
+        } */
+    </style>
+</head>
+<body>
+    <div class="C">
+        
+        <div class="A">
+            <p style="text-align: center;">We are tidi</p>
+            <form action="">
+                
+                <p>please login to your account</p>
+                <label for="text"> Name</label>
+                <br><br>
+                <input type="text"  placeholder="Enter your name">
+                <br><br>
+                <label for="text">Email</label>
+                <br><br>
+                <input type="text" placeholder="Enter your email">
+                <br><br>
+                <label for="text">password</label>
+                <br><br>
+                <input type="password" placeholder="Enter your password">
+                <br><br>
+                <button style="width: 150px;">login</button>
+                <br><br>
+                <a href="" style="text-decoration:none">forget password</a>
+                <br><br>
+                
+                    <label> have an Account</label>
+                    <button>Create account</button>
+                
+            </form>
+        </div>
+        
+            <div class="B">
+                <h3 style="margin-top: 100px; text-align: center;">We  are more than just a company</h3>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aspernatur inventore fugiat omnis? Iusto numquam quis, dolorum provident repudiandae adipisci tenetur cumque illum sit iste debitis. Deserunt, autem nisi.</p>
+
+            </div>
+        </div>
+    
+    
+</body>
+</html>
